@@ -1,0 +1,41 @@
+Question:
+Alice has 3 red apples and twice as many green apples as red. How many apples does she have?
+
+Output:
+{
+"answer": "9 apples",
+"status": "success",
+"reasoning_visible_to_user": "Alice has 3 red apples and 6 green apples, totaling 9.",
+"metadata": {
+"plan": "1. Read the problem\n2. Extract relevant quantities\n3. Perform calculations\n4. Format final answer",
+"checks": [
+{
+"check_name": "consistency_check",
+"passed": true,
+"details": "Answer satisfies the problem constraints."
+}
+],
+"retries": 0
+}
+}
+
+Question:
+If a train leaves at 14:30 and arrives at 18:05, how long is the journey?
+
+Output:
+{
+"answer": "3 hours 35 minutes",
+"status": "success",
+"reasoning_visible_to_user": "The difference between 14:30 and 18:05 is 3 hours 35 minutes.",
+"metadata": {
+"plan": "1. Read the problem\n2. Extract relevant quantities\n3. Perform calculations\n4. Format final answer",
+"checks": [
+{
+"check_name": "consistency_check",
+"passed": true,
+"details": "Answer satisfies the problem constraints."
+}
+],
+"retries": 0
+}
+}
